@@ -202,52 +202,39 @@ Admins can:
 
 ## Application Flow
 
+### User Flow
+
+<pre>
 User
- │
- ├── Register
- │
- ├── Login
- │
- ├── Browse Events
- │
- ├── Search / Filter Events
- │
- ├── View Event Details
- │
- ├── Book Tickets
- │
- ├── Receive QR Ticket
- │
- └── View My Bookings
- │ 
- ├── Cancel Eligible Booking
- │ 
- ├── Receive Event Reminder
- │ 
- └── Review / Rate Completed Event
+├── Register
+├── Login
+├── Browse Events
+├── Search / Filter Events
+├── View Event Details
+├── Book Tickets
+├── Receive QR Ticket
+└── View My Bookings
+    ├── Cancel Eligible Booking
+    ├── Receive Event Reminder
+    └── Review / Rate Completed Event
+</pre>
 
+### Admin Flow
 
+<pre>
 Admin
- │
- ├── Login
- │
- ├── Admin Dashboard
- │
- ├── Create Event
- │
- ├── Edit Event
- │
- ├── Cancel Event
- │
- └── Upload Event Image
- │
- ├── Cancel Event
- │
- ├── Scan QR Code
- │
- ├── Validate Ticket
- │
- └── Check In Guest
+├── Login
+├── Admin Dashboard
+├── Create Event
+├── Edit Event
+├── Cancel Event
+├── Upload Event Image
+├── View Booking Summary
+├── Search Bookings
+├── Scan QR Code
+├── Validate Ticket
+└── Check In Guest
+</pre>
 
 ---
 
